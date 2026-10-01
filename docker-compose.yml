@@ -1,0 +1,12 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+  dashboard:
+    build: .
+    command: streamlit run app/app.py --server.address 0.0.0.0
+    ports:
+      - "8501:8501"
+    depends_on:
+      - api

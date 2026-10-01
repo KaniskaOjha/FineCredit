@@ -1,0 +1,27 @@
+{
+  "approval_rates": {
+    "gender": {
+      "Female": 0.6676,
+      "Male": 0.6478,
+      "Other": 0.6216
+    },
+    "region": {
+      "Rural": 0.6541,
+      "Urban": 0.6578
+    },
+    "gender_region": {
+      "Female_Rural": 0.6668,
+      "Female_Urban": 0.6681,
+      "Male_Rural": 0.6454,
+      "Male_Urban": 0.6497,
+      "Other_Rural": 0.6141,
+      "Other_Urban": 0.6279
+    }
+  },
+  "gender_demographic_parity_difference": 0.04602161864392529,
+  "gender_equalized_odds_difference": 0.051561392381449855,
+  "region_demographic_parity_difference": 0.0037275590180172458,
+  "region_equalized_odds_difference": 0.013106881663582648,
+  "gender_region_demographic_parity_difference": 0.053983933657492655,
+  "gender_region_equalized_odds_difference": 0.09730483953881175
+}

@@ -1,0 +1,7 @@
+{
+  "benchmark_roc_auc": {
+    "logistic_regression": 0.6324894822435524,
+    "xgboost": 0.6108363825988581
+  },
+  "fair_decision_auc_proxy": 0.5416357320888794
+}
